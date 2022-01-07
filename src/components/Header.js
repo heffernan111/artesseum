@@ -9,8 +9,7 @@ const Header = () => {
         <header>
             <nav className="navbar navbar-expand-md fixed-top">
                 <div className="container-fluid">
-
-                    <a className="navbar-brand" href="#">Artesseum<span className="navbar-dot">.</span></a>
+                    <a className="navbar-brand" href="https://github.com/heffman11/artesseum">Artesseum<span className="navbar-dot">.</span></a>
                     <GitLogo />
                 </div>
             </nav>
