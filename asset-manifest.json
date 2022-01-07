@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/artesseum/static/css/main.0238097f.css",
-    "main.js": "/artesseum/static/js/main.59a7da12.js",
-    "static/js/787.ea1977e2.chunk.js": "/artesseum/static/js/787.ea1977e2.chunk.js",
+    "main.css": "/artesseum/static/css/main.b788d4ce.css",
+    "main.js": "/artesseum/static/js/main.fcbf0ebb.js",
+    "static/js/787.d32827da.chunk.js": "/artesseum/static/js/787.d32827da.chunk.js",
     "static/media/logo.svg": "/artesseum/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/artesseum/index.html",
-    "main.0238097f.css.map": "/artesseum/static/css/main.0238097f.css.map",
-    "main.59a7da12.js.map": "/artesseum/static/js/main.59a7da12.js.map",
-    "787.ea1977e2.chunk.js.map": "/artesseum/static/js/787.ea1977e2.chunk.js.map"
+    "main.b788d4ce.css.map": "/artesseum/static/css/main.b788d4ce.css.map",
+    "main.fcbf0ebb.js.map": "/artesseum/static/js/main.fcbf0ebb.js.map",
+    "787.d32827da.chunk.js.map": "/artesseum/static/js/787.d32827da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0238097f.css",
-    "static/js/main.59a7da12.js"
+    "static/css/main.b788d4ce.css",
+    "static/js/main.fcbf0ebb.js"
   ]
 }
