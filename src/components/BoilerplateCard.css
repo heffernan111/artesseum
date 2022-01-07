@@ -1,0 +1,61 @@
+code {
+    color: #FE938C !important;
+    background-color: #ECE4DB !important;
+    padding: 0.5rem 0.75rem !important;
+    border-radius: 0.25rem !important;
+    width: 100% !important;
+    display: block;
+    line-height: 1.5rem;
+    border-radius: 0.25rem;
+    white-space: pre;
+    width: 100%;
+}
+
+.code-text {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #4281A4;
+}
+
+.instruction-text {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #EAD2AC;
+    font-weight: bold;
+}
+
+.icon {
+    float: right;
+}
+
+.icon:hover {
+    color: #FE938C !important;
+}
+
+.icon:active {
+  color: #ECE4DB !important;
+}
+
+.dollar {
+    color: #E6B89C;
+    padding-right: 10px !important;
+}
+
+.card-body {
+    background-color: #E6B89C !important;
+}
+
+.card-header {
+    background-color: #9CAFB7 !important;
+}
+
+/* colours
+FE938C - user for text
+E6B89C - user for $ symbol
+EAD2AC
+9CAFB7
+4281A4
+ECE4DB
+*/

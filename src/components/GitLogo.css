@@ -1,0 +1,12 @@
+
+.icon:hover {
+    color: #ECE4DB !important;
+}
+
+.icon:active {
+  color: #FE938C !important;
+}
+
+.icon {
+    color: #E6B89C !important;
+}

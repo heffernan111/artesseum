@@ -1,0 +1,30 @@
+/* colours
+
+#ECE4DB - greyish
+E6B89C - peach
+EAD2AC -
+9CAFB7
+4281A4
+FE938C
+*/
+
+nav {
+    background: #9CAFB7 !important;
+}
+
+.navbar {
+    /* background-color: #4281A4; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px !important;
+}
+
+.navbar-brand {
+    color: #ECE4DB !important;
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+.navbar-dot {
+    color: #FE938C !important;
+}
