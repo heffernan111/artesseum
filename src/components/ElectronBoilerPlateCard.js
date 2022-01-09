@@ -25,7 +25,7 @@ const ElectronBoilerPlateCard = () => {
         <div className="col-sm-6">
             <div className="card">
                 <div className="card-header d-flex justify-content-between align-items-center">
-                    <IoLogoElectron fontSize="1.2em"/> MERN Electron.js Stack
+                    <IoLogoElectron fontSize="1.2em"/> MEREN Stack
                 </div>
                 <div className="card-body">
                     <p className="code-text">Clone the boiler plate</p>a
