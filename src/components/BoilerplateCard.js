@@ -27,10 +27,9 @@ const BoilerplateCard = () => {
         <div className="col-sm-6">
             <div className="card">
                 <div className="card-header d-flex justify-content-between align-items-center">
-                    <FaReact fontSize="1.2em"/> MERN Stack
+                    <FaReact fontSize="1.2em"/>MERN Stack
                 </div>
                 <div className="card-body">
-
                     <p className="code-text">Clone the boiler plate</p>
                     <code>
                         <span className="dollar">$</span>
@@ -94,7 +93,10 @@ const BoilerplateCard = () => {
                     </code>
 
                     <div className="text-center pt-4">
-                        <a href="localhost:3000" class="btn btn-secondary btn-sm" role="button">Open your app localhost:3000</a>
+                        <a href="http://localhost:3000" class="btn btn-secondary btn-sm" role="button">Open your app localhost:3000</a>
+                        <p className="code-text">
+                            <a href="https://zellwk.com/blog/install-mongodb/">Follow this tutorial for mongo</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -109,8 +111,7 @@ const BoilerplateCard = () => {
                 draggable
                 pauseOnHover
                 />
-                {/* Same as */}
-                <ToastContainer />
+            <ToastContainer />
         </div>
     );
 }

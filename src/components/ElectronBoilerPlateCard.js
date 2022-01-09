@@ -31,7 +31,7 @@ const ElectronBoilerPlateCard = () => {
                     <p className="code-text">Clone the boiler plate</p>
                     <code>
                         <span className="dollar">$</span>
-                        <span id="code_1">git clone https:// &lt;folder_name&gt;</span>
+                        <span id="code_1">git clone https://github.com/heffman11/mern_electron.git &lt;folder_name&gt;</span>
                         <span class="icon" onClick={() => copyCode('code_1')}><MdCopyAll fontSize="1.2em"/></span>
                     </code>
 
@@ -42,22 +42,59 @@ const ElectronBoilerPlateCard = () => {
                         <span class="icon" onClick={() => copyCode('code_2')}><MdCopyAll fontSize="1.2em"/></span>
                     </code>
 
-                    <p className="code-text">Install dependencies</p>
+                    <p className="code-text">Artesseum is split into frontend (React) and backend (Node.js).</p>
                     <code>
                         <span className="dollar">$</span>
-                        <span id="code_3">npm install</span>
+                        <span id="code_3">cd frontend</span>
                         <span class="icon" onClick={() => copyCode('code_3')}><MdCopyAll fontSize="1.2em"/></span>
                     </code>
 
-                    <p className="code-text">You can now start your development server</p>
+                    <p className="code-text">Install dependencies</p>
                     <code>
                         <span className="dollar">$</span>
-                        <span id="code_4">npm start</span>
+                        <span id="code_4">npm install</span>
                         <span class="icon" onClick={() => copyCode('code_4')}><MdCopyAll fontSize="1.2em"/></span>
                     </code>
 
+                    <p className="code-text">You can now start your front end app.</p>
+                    <code>
+                        <span className="dollar">$</span>
+                        <span id="code_5">npm run electron:start</span>
+                        <span class="icon" onClick={() => copyCode('code_5')}><MdCopyAll fontSize="1.2em"/></span>
+                    </code>
+
+                    <p className="code-text">Install backend dependencies</p>
+                    <code>
+                        <span className="dollar">$</span>
+                        <span id="code_6">cd ..</span>
+                        <span class="icon" onClick={() => copyCode('code_6')}><MdCopyAll fontSize="1.2em"/></span>
+                    </code>
+                    <br/>
+                    <code>
+                        <span className="dollar">$</span>
+                        <span id="code_7">cd backend</span>
+                        <span class="icon" onClick={() => copyCode('code_7')}><MdCopyAll fontSize="1.2em"/></span>
+                    </code>
+
+                    <p className="code-text">Install dependencies</p>
+                    <code>
+                        <span className="dollar">$</span>
+                        <span id="code_8">npm install</span>
+                        <span class="icon" onClick={() => copyCode('code_8')}><MdCopyAll fontSize="1.2em"/></span>
+                    </code>
+
+                    <p className="code-text">You can now start your node server.</p>
+                    <code>
+                        <span className="dollar">$</span>
+                        <span id="code_9">npm start</span>
+                        <span class="icon" onClick={() => copyCode('code_9')}><MdCopyAll fontSize="1.2em"/></span>
+                    </code>
+
                     <div className="text-center pt-4">
-                        <h5><span class="badge bg-secondary">Your desktop application will load automatically</span></h5>
+                        <a href="http://localhost:3000" class="btn btn-secondary btn-sm" role="button">Open your app localhost:3000</a>
+                        <p className="code-text">
+                            <a href="https://zellwk.com/blog/install-mongodb/">Follow this tutorial for mongo</a>
+                        </p>
                     </div>
                 </div>
             </div>
