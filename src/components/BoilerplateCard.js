@@ -85,6 +85,10 @@ const BoilerplateCard = () => {
                         <span class="icon" onClick={() => copyCode('code_8')}><MdCopyAll fontSize="1.2em"/></span>
                     </code>
 
+                    <p className="code-text">
+                        <a href="https://zellwk.com/blog/install-mongodb/">Follow this tutorial for mongo and set environemy variables in .env</a>
+                    </p>
+
                     <p className="code-text">You can now start your node server.</p>
                     <code>
                         <span className="dollar">$</span>
@@ -94,9 +98,6 @@ const BoilerplateCard = () => {
 
                     <div className="text-center pt-4">
                         <a href="http://localhost:3000" class="btn btn-secondary btn-sm" role="button">Open your app localhost:3000</a>
-                        <p className="code-text">
-                            <a href="https://zellwk.com/blog/install-mongodb/">Follow this tutorial for mongo</a>
-                        </p>
                     </div>
                 </div>
             </div>
