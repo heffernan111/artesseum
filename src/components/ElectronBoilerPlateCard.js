@@ -28,7 +28,7 @@ const ElectronBoilerPlateCard = () => {
                     <IoLogoElectron fontSize="1.2em"/> MEREN Stack
                 </div>
                 <div className="card-body">
-                    <p className="code-text">Clone the boiler plate</p>a
+                    <p className="code-text">Clone the boiler plate</p>
                     <code>
                         <span className="dollar">$</span>
                         <span id="electron_1">git clone https://github.com/heffman11/mern_electron.git &lt;folder_name&gt;</span>
@@ -95,7 +95,7 @@ const ElectronBoilerPlateCard = () => {
                     </code>
 
                     <div className="text-center pt-4">
-                        <a href="http://localhost:3000" class="btn btn-secondary btn-sm" role="button">Open your app localhost:3000</a>
+                        <h5><span class="badge bg-secondary">Your desktop application will load automatically</span></h5>
                     </div>
                 </div>
             </div>
